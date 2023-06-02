@@ -1,9 +1,19 @@
 import React from 'react';
 
-const NewComponent = () => {
+type NewComponentPropsType = {
+    students: Array<StudentsPropsType>
+}
+
+type StudentsPropsType = {
+    id: number
+    name: string
+    age: number
+}
+
+const NewComponent = (props:NewComponentPropsType) => {
     return (
         <div>
-            new component
+
         </div>
     );
 };
