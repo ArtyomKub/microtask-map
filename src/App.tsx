@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import NewComponent from "./NewComponent";
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <NewComponent/>
+    );
 }
 
 export default App;
